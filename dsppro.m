@@ -3,23 +3,15 @@ clc;
 close all;
 warning off;
 
-% % الاتصال بكاميرا IP
 mycam = ipcam('http://192.168.1.15:8080/video');
-
- % التقاط صورة من الكاميرا
 while true 
 e = mycam.snapshot;
- 
- % عرض الصورة الأصلية
 %imshow(e);
-% تحويل الصورة إلى تدرج رمادي
-
 ms = rgb2gray(e);
 [BW,maskedImage] = segmentImage(ms);
 % figure;
 % imshow(BW);
 
-% معالجة الكائنات: إزالة الضوضاء، توسيع، ملء الثقوب
 filta = imfill(imdilate(bwareaopen(BW, 100), ones(5, 5)), 'holes');
 % figure;
 % imshow(filta);
