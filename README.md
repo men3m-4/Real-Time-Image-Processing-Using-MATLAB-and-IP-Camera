@@ -27,5 +27,3 @@ To detect and highlight objects in real-time video streams using MATLAB and an I
 ## 📷 Capturing Video from IP Camera
 MATLAB code snippet to connect and stream from an IP camera:
 
-```matlab
-mycam = ipcam('http://192.168.1.101:8080/video');
