@@ -1,7 +1,7 @@
-# Real-Time Object Detection Using MATLAB and IP Camera
+# Real-Time Image Processing Using MATLAB and IP Camera
 
 ## 📌 Project Overview
-This project demonstrates real-time object detection using **MATLAB** in conjunction with an **IP Camera**. It captures live video, processes each frame, detects objects, removes noise, and visualizes the results by drawing bounding boxes around the detected objects.
+This project demonstrates real-time object detection using **MATLAB** in conjunction with an **IP Camera**. It captures live video, processes each frame,  removes noise, and visualizes the results by drawing bounding boxes around the detected objects.
 
 
 ---
@@ -20,7 +20,7 @@ To detect and highlight objects in real-time video streams using MATLAB and an I
 
 ## 🔧 System Components
 - **IP Camera:** Provides live video stream over a network.
-- **MATLAB:** Used for frame capture, image processing, object detection, and real-time display.
+- **MATLAB:** Used for frame capture, image processing,  and real-time display.
 
 ---
 
